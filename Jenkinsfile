@@ -12,7 +12,7 @@ def overriddenParams = [
     //-- BEING: this section is for Magento-specific values.
     string(name: 'THEME', defaultValue: 'your-theme-name', description: 'Name of primary project theme'),
     string(name: 'MAGENTO_VERSION', defaultValue: '2.1', description: 'Current version of Magento'),
-    string(name: 'PACKAGIST', defaultValue: 'your-packagist-composer-crednetials', description: 'Packagist / composer configuration credential name')
+    string(name: 'PACKAGIST', defaultValue: 'magento-composer-crednetials', description: 'Packagist / composer configuration credential name')
     //-- END
 ]
 
